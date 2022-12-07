@@ -1,0 +1,18 @@
+// Для поиска
+System.out.println("Введите номер ID пользователя для поиска");
+
+Scanner inputInt = new Scanner(System.in);
+int a = inputInt.nextInt();
+
+System.out.println("Пользователь " + guests.get(a) + " ID=" + a +" был найден");
+
+
+
+
+// Для удаления
+System.out.println("Введите номер ID пользователя для поиска");
+
+Scanner inputInt = new Scanner(System.in);
+int b = inputInt.nextInt();
+
+System.out.println("Пользователь " + guests.remove(b) +"был удален по ID=" + b);
